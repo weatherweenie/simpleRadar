@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+
+.gridWrapper {
+	border: 1px solid black;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.gridHeader {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.gridRow {
+	display: grid;
+	grid-template-columns: 2em 3em 130px;
+}
+
+.gridHeader > :last-child {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 1px solid black;
+}
+
+.gridRow > div {
+	padding: 5px;
+	text-align: center;
+	align-content: center;
+}
+
+#tor {
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="gridWrapper">
+	<div class="gridHeader" id="severeWarnings">Severe Warnings</div>
+	<div class="gridRow" id="tor">
+		<div>3</div>
+		<div>tor</div>
+		<div>OH, KY</div>
+	</div>
+	<div class="gridRow" id="svr">
+		<div>7</div>
+		<div>svr</div>
+		<div>OH, IN, KY</div>
+	</div>
+	<div class="gridRow" id="flashFlood">
+		<div>11</div>
+		<div>flood</div>
+		<div>OH, IN, KY, WV, TN</div>
+	</div>
+	<div class="gridRow" id="sws">
+		<div>2</div>
+		<div>sws</div>
+		<div>OH, CO</div>
+	</div>
+</div>
+
+<script>
+
+</script>
+</body>
+
+</html>
