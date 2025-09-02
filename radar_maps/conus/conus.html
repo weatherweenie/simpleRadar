@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+img #conus {
+	position: relative; /*make it a positioned ancensor so child elements can be absolutely positioned anchored to this*/
+}
+
+a {
+}
+
+a:hover {
+	border: 2px solid red;
+}
+
+#pacnorthwest {
+	position: absolute;
+	top: 32px;
+	left: 8px;
+	width: 156px;
+	height: 195px;
+	border: 2px solid blue;
+}
+
+#northrockies {
+	position: absolute;
+	top: 32px;
+	left: 103px;
+	width: 100px;
+	height: 195px;
+	border: 2px solid red;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<img id="conus" src="https://radar.weather.gov/ridge/standard/CONUS_loop.gif">
+
+<a id="pacnorthwest" href="/regions/pacnorthwest/pacnorthwest.html"/>
+<a id="northrockies" href="/regions/northrockies/northrockies.html"/>
+
+</img>
+
+<br>
+
+<a id="alaska" href="../alaska/alaska.html">Alaska</a>
+<a id="guam" href="../guam/guam.html">Guam</a>
+<a id="hawaii" href="../hawaii/hawaii.html">Hawaii</a>
+<a id="tjua" href="../tjua/tjua.html">Puerto Rico</a>
+
+<br>
+
+Regions:
+
+<br>
+
+<script>
+
+
+</script>
+</body>
+</html>
