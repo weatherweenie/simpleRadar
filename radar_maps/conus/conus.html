@@ -95,6 +95,16 @@ a:hover {
 	height: 156.3px;
 }
 
+
+#pacnorthwest2 {
+	border: 2px solid blue;
+	position: absolute;
+	top: 32px;
+	left: 8px;
+	width: 156px;
+	height: 195px;
+}
+
 </style>
 
 </head>
@@ -116,6 +126,7 @@ a:hover {
 
 </img>
 
+
 <div/>
 
 <a id="alaska" href="../alaska/alaska.html">Alaska</a>
@@ -123,9 +134,13 @@ a:hover {
 <a id="hawaii" href="../hawaii/hawaii.html">Hawaii</a>
 <a id="tjua" href="../tjua/tjua.html">Puerto Rico</a>
 
+<button onclick="test();">test</button>
 
 <script>
 
+function test () {
+	document.getElementById("pacnorthwest").id="pacnorthwest2";
+}
 
 </script>
 </body>
