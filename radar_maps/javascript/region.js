@@ -7,9 +7,12 @@ console.log(region);
 
 regionanchor = document.getElementById("regionanchor");
 regionspan = document.getElementById("regionspan");
+anchor1 = document.getElementById("anchor1");
 
-//lookup table for region ids, a bit tedious
-if (region == "pacnorthwest") { regionName = "Pacific Northwest";}
+if (region == "pacnorthwest") { 
+	regionName = "Pacific Northwest";
+	anchor1.href="./station.html?region=Pacific Northwest&station=KATX";
+}
 if (region == "northrockies") { regionName = "North Rockies";}
 if (region == "uppermissvly") { regionName = "Upper Mississippi Valley";}
 if (region == "centgrlakes") { regionName = "Central Great Lakes";}
