@@ -27,14 +27,14 @@ if (region == "tjua") { regionName = "Puerto Rico";}
 console.log(regionName);
 
 if (['guam', 'hawaii', 'alaska', 'tjua'].includes(region)) { //if the region is any of these
-	conusanchor.href = "./conus/conus.html";
+	conusanchor.href = "./conus.html";
 	conusanchor.innerText = "CONUS";
 	conusspan.innerText = " | ";
 	regionspan.innerText = regionName;
 }
 
 else { //if it's any of the regions within conus
-	conusanchor.href = "./conus/conus.html";
+	conusanchor.href = "./conus.html";
 	conusanchor.innerText = "CONUS";
 	conusspan.innerText = " > ";
 	regionspan.innerText = regionName;
