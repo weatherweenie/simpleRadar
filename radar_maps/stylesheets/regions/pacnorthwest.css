@@ -3,15 +3,20 @@ img #mainImg {
 }
 
 /*make each station button a circle*/
-.station {
-	position: absolute;
-	top: 149px;
-	left: 213px;
+.stationanchor {
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
 	background-color: yellow;
 	border:	2px solid grey;
+	position: absolute;
+}
+#katxanchor {
+	top: 149px;
+	left: 213px;
 }
 
-
+#klgxanchor {
+	top: 160px;
+	left: 200px;
+}

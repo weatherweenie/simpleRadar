@@ -1,17 +1,26 @@
 console.log("hello!");
-
 const urlParams = new URLSearchParams(window.location.search);
 const region = urlParams.get('region');
-
 console.log(region);
 
 regionanchor = document.getElementById("regionanchor");
 regionspan = document.getElementById("regionspan");
-anchor1 = document.getElementById("anchor1");
+stylesheet = document.getElementById("stylesheet");
+mainImg = document.getElementById("mainImg");
 
+regionCapitalized = region.toUpperCase();
+
+
+mainImg.src = "https://radar.weather.gov/ridge/standard/" + regionCapitalized + "_loop.gif";
+
+//for these: set the region name,
+//and then set the style sheet,
+//and then pass an array of each radar station in the region to a function that will add an anchor to the document for each one
+//the appendStation function can only be used from the other file if that file is also loaded as a <script> in the document before this file is
 if (region == "pacnorthwest") { 
 	regionName = "Pacific Northwest";
-	anchor1.href="./station.html?region=Pacific Northwest&station=KATX";
+	stylesheet.href="./stylesheets/regions/pacnorthwest.css";
+	appendStations(['katx', 'klgx']);
 }
 if (region == "northrockies") { regionName = "North Rockies";}
 if (region == "uppermissvly") { regionName = "Upper Mississippi Valley";}
@@ -43,6 +52,4 @@ else { //if it's any of the regions within conus
 	regionspan.innerText = regionName;
 }
 
-regionCapitalized = region.toUpperCase();
 
-document.getElementById("mainImg").src = "https://radar.weather.gov/ridge/standard/" + regionCapitalized + "_loop.gif";
