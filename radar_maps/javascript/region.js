@@ -20,7 +20,7 @@ mainImg.src = "https://radar.weather.gov/ridge/standard/" + regionCapitalized + 
 if (region == "pacnorthwest") { 
 	regionName = "Pacific Northwest";
 	stylesheet.href="./stylesheets/regions/pacnorthwest.css";
-	appendStations(['katx', 'klgx']);
+	appendStations(region, ['katx', 'klgx', 'krtx', 'kmax', 'kbhx', 'kbbx', 'kdax', 'kmux', 'khnx', 'kpdt', 'krgx', 'kotx', 'kcbx', 'klrx', 'kmsx', 'ksfx', 'kmtx', 'kicx', 'ktfx']);
 }
 if (region == "northrockies") { regionName = "North Rockies";}
 if (region == "uppermissvly") { regionName = "Upper Mississippi Valley";}

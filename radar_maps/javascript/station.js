@@ -16,7 +16,7 @@ stationCapitalized = station.toUpperCase();
 console.log(stationCapitalized);
 
 if (['guam', 'hawaii', 'alaska', 'tjua'].includes(region)) { //if the region is any of these
-	region1anchor.href = "./" + region + "/" + region + ".html";
+	region1anchor.href = "./region.html?region=" + region;
 	region1anchor.innerText = regionCapitalized;
 	region1span.innerText = " > ";
 	stationspan.innerText = stationCapitalized;
@@ -24,10 +24,10 @@ if (['guam', 'hawaii', 'alaska', 'tjua'].includes(region)) { //if the region is 
 }
 
 else { //if it's any of the regions within conus
-	region1anchor.href = "./conus/conus.html";
+	region1anchor.href = "./conus.html";
 	region1anchor.innerText = "CONUS";
 	region1span.innerText = " > ";
-	region2anchor.href = "./conus/regions/" + region + "/" + region + ".html";
+	region2anchor.href = "./region.html?region=" + region;
 	region2anchor.innerText= regionCapitalized;
 	region2span.innerText = " > ";
 	stationspan.innerText = stationCapitalized;
