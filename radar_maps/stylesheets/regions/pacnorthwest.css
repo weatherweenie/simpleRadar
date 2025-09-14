@@ -8,13 +8,21 @@ img #mainImg {
 
 /*make each station button a circle*/
 .stationanchor {
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	background-color: yellow;
-	border:	2px solid grey;
-	position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: grey;
+        border: 2px solid yellow;
+        position: absolute;
+        opacity: 0.8;
 }
+
+.stationanchor:hover {
+        opacity: 1;
+        background-color: yellow;
+        border: 2px solid grey;
+}
+
 
 /*for positioning each station paste this in the console to get mouse coordinates:
 
@@ -107,16 +115,16 @@ document.onmousemove = function(e) {
 }
 
 #kmtxanchor {
-	
+	top: 400px;
+	left: 549px;	
 }
 
-kmtx', 'kicx', 'ktfx'
+#kicxanchor {
+	top: 532px;
+	left: 536px;
+}
 
-
-
-
-
-
-
-
-
+#ktfxanchor {
+	top: 160px;
+	left: 584px;
+}
