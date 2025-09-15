@@ -27,7 +27,11 @@ if (region == "northrockies") {
 	stylesheet.href = "./stylesheets/regions/northrockies.css";
 	appendStations(region, ['kcbx', 'klrx', 'kmsx', 'ksfx', 'kmtx', 'ktfx', 'kblx', 'kriw', 'kggw', 'kcys', 'kudx', 'kmbx', 'kbis', 'klnx', 'kgjx', 'kftg', 'kgld', 'kicx', 'kpux']);
 }
-if (region == "uppermissvly") { regionName = "Upper Mississippi Valley";}
+if (region == "uppermissvly") { 
+	regionName = "Upper Mississippi Valley";
+	stylesheet.href = "./stylesheets/regions/uppermissvly.css";
+	appendStations(region, ['kmbx', 'kudx', 'kbis', 'kmvx', 'kabr', 'kfsd', 'klnx', 'kuex', 'koax', 'kgld', 'kddc', 'kvnx', 'kict', 'ktwx', 'kinx', 'ksgf', 'keax', 'klsx', 'kilx', 'kdvn', 'kdmx', 'karx', 'kmpx', 'kdlh']);
+}
 if (region == "centgrlakes") { regionName = "Central Great Lakes";}
 if (region == "northeast") { regionName = "Northeast";}
 if (region == "pacsouthwest") { regionName = "Pacific Southwest";}
