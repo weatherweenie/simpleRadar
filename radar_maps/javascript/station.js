@@ -3,6 +3,7 @@ console.log("hello!");
 const urlParams = new URLSearchParams(window.location.search);
 const region = urlParams.get('region');
 const station = urlParams.get('station');
+const regionName = urlParams.get('regionName');
 
 console.log(region + ", " + station);
 
@@ -17,7 +18,7 @@ console.log(stationCapitalized);
 
 if (['guam', 'hawaii', 'alaska', 'tjua'].includes(region)) { //if the region is any of these
 	region1anchor.href = "./region.html?region=" + region;
-	region1anchor.innerText = regionCapitalized;
+	region1anchor.innerText = regionName;
 	region1span.innerText = " > ";
 	stationspan.innerText = stationCapitalized;
 	
@@ -28,7 +29,7 @@ else { //if it's any of the regions within conus
 	region1anchor.innerText = "CONUS";
 	region1span.innerText = " > ";
 	region2anchor.href = "./region.html?region=" + region;
-	region2anchor.innerText= regionCapitalized;
+	region2anchor.innerText= regionName;
 	region2span.innerText = " > ";
 	stationspan.innerText = stationCapitalized;
 }

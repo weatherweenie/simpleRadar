@@ -20,30 +20,34 @@ mainImg.src = "https://radar.weather.gov/ridge/standard/" + regionCapitalized + 
 if (region == "pacnorthwest") { 
 	regionName = "Pacific Northwest";
 	stylesheet.href="./stylesheets/regions/pacnorthwest.css";
-	appendStations(region, ['katx', 'klgx', 'krtx', 'kmax', 'kbhx', 'kbbx', 'kdax', 'kmux', 'khnx', 'kpdt', 'krgx', 'kotx', 'kcbx', 'klrx', 'kmsx', 'ksfx', 'kmtx', 'kicx', 'ktfx']);
+	appendStations(region, regionName, ['katx', 'klgx', 'krtx', 'kmax', 'kbhx', 'kbbx', 'kdax', 'kmux', 'khnx', 'kpdt', 'krgx', 'kotx', 'kcbx', 'klrx', 'kmsx', 'ksfx', 'kmtx', 'kicx', 'ktfx']);
 }
-if (region == "northrockies") { 
+else if (region == "northrockies") { 
 	regionName = "North Rockies";
 	stylesheet.href = "./stylesheets/regions/northrockies.css";
-	appendStations(region, ['kcbx', 'klrx', 'kmsx', 'ksfx', 'kmtx', 'ktfx', 'kblx', 'kriw', 'kggw', 'kcys', 'kudx', 'kmbx', 'kbis', 'klnx', 'kgjx', 'kftg', 'kgld', 'kicx', 'kpux']);
+	appendStations(region, regionName, ['kcbx', 'klrx', 'kmsx', 'ksfx', 'kmtx', 'ktfx', 'kblx', 'kriw', 'kggw', 'kcys', 'kudx', 'kmbx', 'kbis', 'klnx', 'kgjx', 'kftg', 'kgld', 'kicx', 'kpux']);
 }
-if (region == "uppermissvly") { 
+else if (region == "uppermissvly") { 
 	regionName = "Upper Mississippi Valley";
 	stylesheet.href = "./stylesheets/regions/uppermissvly.css";
-	appendStations(region, ['kmbx', 'kudx', 'kbis', 'kmvx', 'kabr', 'kfsd', 'klnx', 'kuex', 'koax', 'kgld', 'kddc', 'kvnx', 'kict', 'ktwx', 'kinx', 'ksgf', 'keax', 'klsx', 'kilx', 'kdvn', 'kdmx', 'karx', 'kmpx', 'kdlh']);
+	appendStations(region, regionName, ['kmbx', 'kudx', 'kbis', 'kmvx', 'kabr', 'kfsd', 'klnx', 'kuex', 'koax', 'kgld', 'kddc', 'kvnx', 'kict', 'ktwx', 'kinx', 'ksgf', 'keax', 'klsx', 'kilx', 'kdvn', 'kdmx', 'karx', 'kmpx', 'kdlh']);
 }
-if (region == "centgrlakes") { regionName = "Central Great Lakes";}
-if (region == "northeast") { regionName = "Northeast";}
-if (region == "pacsouthwest") { regionName = "Pacific Southwest";}
-if (region == "southrockies") { regionName = "Southern Rockies";}
-if (region == "southplains") { regionName = "Southern Plains";}
-if (region == "southmissvly") { regionName = "Southern Mississippi Valley";}
-if (region == "southeast") { regionName = "Southeast";}
+else if (region == "centgrlakes") { 
+	regionName = "Central Great Lakes";
+	stylesheet.href = "./stylesheets/regions/centgrlakes.css";
+	appendStations(region, regionName, ['karx', 'kmkx', 'kgrb', 'kmqt', 'kdvn', 'kilx', 'klsx', 'kpah', 'kvwx', 'klot']);
+}
+else if (region == "northeast") { regionName = "Northeast";}
+else if (region == "pacsouthwest") { regionName = "Pacific Southwest";}
+else if (region == "southrockies") { regionName = "Southern Rockies";}
+else if (region == "southplains") { regionName = "Southern Plains";}
+else if (region == "southmissvly") { regionName = "Southern Mississippi Valley";}
+else if (region == "southeast") { regionName = "Southeast";}
 
-if (region == "alaska") { regionName = "Alaska";}
-if (region == "guam") { regionName = "Guam";}
-if (region == "hawaii") { regionName = "Hawaii";}
-if (region == "tjua") { regionName = "Puerto Rico";}
+else if (region == "alaska") { regionName = "Alaska";}
+else if (region == "guam") { regionName = "Guam";}
+else if (region == "hawaii") { regionName = "Hawaii";}
+else if (region == "tjua") { regionName = "Puerto Rico";}
 console.log(regionName);
 
 if (['guam', 'hawaii', 'alaska', 'tjua'].includes(region)) { //if the region is any of these

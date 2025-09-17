@@ -1,11 +1,11 @@
-function appendStations(region, stationArray) {
+function appendStations(region, regionName, stationArray) {
 	console.log("function appendstations()");
 	for (station in stationArray) {
 		station = stationArray[station];
 		var stationanchor = document.createElement('a');
 		stationanchor.classList.add("stationanchor");
 		stationanchor.id = station + "anchor";
-		stationanchor.href = "./station.html?station=" + station + "&region=" + region;
+		stationanchor.href = "./station.html?station=" + station + "&region=" + region + "&regionName=" + regionName;
 		stationanchor.title = station.toUpperCase();
 		document.body.appendChild(stationanchor);
 	}
