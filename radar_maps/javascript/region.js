@@ -35,7 +35,7 @@ else if (region == "uppermissvly") {
 else if (region == "centgrlakes") { 
 	regionName = "Central Great Lakes";
 	stylesheet.href = "./stylesheets/regions/centgrlakes.css";
-	appendStations(region, regionName, ['karx', 'kmkx', 'kgrb', 'kmqt', 'kdvn', 'kilx', 'klsx', 'kpah', 'kvwx', 'klot']);
+	appendStations(region, regionName, ['karx', 'kmkx', 'kgrb', 'kmqt', 'kdvn', 'kilx', 'klsx', 'kpah', 'kvwx', 'klot', 'kiwx', 'kgrr', 'kdtx', 'kapx', 'kcle', 'kiln', 'kiwx', 'kind', 'kvwx', 'khpx', 'klvx', 'kjkl', 'krlx', 'kpbz', 'kccx', 'kbuf', 'klwx', 'kfcx', 'kmrx', 'kohx']);
 }
 else if (region == "northeast") { regionName = "Northeast";}
 else if (region == "pacsouthwest") { regionName = "Pacific Southwest";}
