@@ -150,3 +150,23 @@ document.onmousemove = function(e) {
 	top: 313px;
 	left: 528px;
 }
+
+#kccxanchor {
+	top: 395px;
+	left: 558px;
+}
+
+#krlxanchor {
+	top: 498px;
+	left: 408px;
+}
+
+#kfcxanchor {
+	top: 547px;
+	left: 466px;
+}
+
+#klwxanchor {
+	top: 471px;
+	left: 577px;
+}
