@@ -37,7 +37,11 @@ else if (region == "centgrlakes") {
 	stylesheet.href = "./stylesheets/regions/centgrlakes.css";
 	appendStations(region, regionName, ['karx', 'kmkx', 'kgrb', 'kmqt', 'kdvn', 'kilx', 'klsx', 'kpah', 'kvwx', 'klot', 'kiwx', 'kgrr', 'kdtx', 'kapx', 'kcle', 'kiln', 'kiwx', 'kind', 'kvwx', 'khpx', 'klvx', 'kjkl', 'krlx', 'kpbz', 'kccx', 'kbuf', 'klwx', 'kfcx', 'kmrx', 'kohx']);
 }
-else if (region == "northeast") { regionName = "Northeast";}
+else if (region == "northeast") { 
+	regionName = "Northeast";
+	stylesheet.href = "./stylesheets/regions/northeast.css";
+	appendStations(region, regionName, ['kpbz', 'kakq', 'klwx', 'kccx', 'kbuf', 'ktyx', 'kbgm', 'kdox', 'kdix', 'kenx', 'kcxx', 'kokx', 'kbox', 'kgyx', 'kcbw', 'kfcx']);
+}
 else if (region == "pacsouthwest") { regionName = "Pacific Southwest";}
 else if (region == "southrockies") { regionName = "Southern Rockies";}
 else if (region == "southplains") { regionName = "Southern Plains";}
