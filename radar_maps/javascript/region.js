@@ -46,7 +46,11 @@ else if (region == "pacsouthwest") { regionName = "Pacific Southwest";}
 else if (region == "southrockies") { regionName = "Southern Rockies";}
 else if (region == "southplains") { regionName = "Southern Plains";}
 else if (region == "southmissvly") { regionName = "Southern Mississippi Valley";}
-else if (region == "southeast") { regionName = "Southeast";}
+else if (region == "southeast") { 
+	regionName = "Southeast";
+	stylesheet.href = "./stylesheets/regions/southeast.css";
+	appendStations(region, regionName, ['kmhx', 'krax', 'kltx', 'kclx', 'kcae', 'kgsp', 'kmrx', 'kohx', 'khtx', 'kffc', 'kjgx', 'kvax', 'kjax', 'kmlb', 'kamx', 'ktbw', 'ktlh', 'keox', 'kmxx', 'kbmx', 'kevx', 'kmob', 'kgwx', 'kdgx', 'khdc', 'knqa', 'kbyx']);
+}
 
 else if (region == "alaska") { regionName = "Alaska";}
 else if (region == "guam") { regionName = "Guam";}
