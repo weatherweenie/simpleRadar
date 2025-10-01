@@ -45,7 +45,11 @@ else if (region == "northeast") {
 else if (region == "pacsouthwest") { regionName = "Pacific Southwest";}
 else if (region == "southrockies") { regionName = "Southern Rockies";}
 else if (region == "southplains") { regionName = "Southern Plains";}
-else if (region == "southmissvly") { regionName = "Southern Mississippi Valley";}
+else if (region == "southmissvly") { 
+	regionName = "Southern Mississippi Valley";
+	stylesheet.href = "./stylesheets/regions/southmissvly.css";
+	appendStations(region, regionName, ['ktbw', 'ktlh', 'kvax', 'kjgx', 'kffc', 'kgsp', 'kmrx', 'kjkl', 'klvx', 'khpx', 'kvwx', 'kpah', 'khtx', 'kgwx', 'kbmx', 'kmxx', 'keox', 'kevx', 'kmob', 'kdgx', 'knqa', 'ksgf', 'klzk', 'khdc', 'klch', 'kpoe', 'kshv', 'ksrx', 'kinx', 'khgx', 'kcrp', 'kgrk', 'kfws', 'ktlx', 'kict', 'kbro', 'kohx']);
+}
 else if (region == "southeast") { 
 	regionName = "Southeast";
 	stylesheet.href = "./stylesheets/regions/southeast.css";
