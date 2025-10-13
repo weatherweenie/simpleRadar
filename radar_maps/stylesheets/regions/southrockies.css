@@ -1,0 +1,117 @@
+img #mainImg {
+	position: relative;
+}
+
+#topText {
+	white-space: nowrap;
+}
+
+/*make each station button a circle*/
+.stationanchor {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: grey;
+	border:	2px solid yellow;
+	position: absolute;
+	opacity: 0.8;
+}
+
+.stationanchor:hover {
+	opacity: 1;
+	background-color: yellow;
+	border: 2px solid grey;
+}
+
+/*for positioning each station paste this in the console to get mouse coordinates:
+
+document.onmousemove = function(e) {
+    console.log(`Mouse X (Page): ${e.pageX}, Mouse Y (Page): ${e.pageY}`);
+    console.log(`Mouse X (Client): ${e.clientX}, Mouse Y (Client): ${e.clientY}`);
+};
+*/
+
+#kgjxanchor {
+	top: 89px;
+	left: 392px;
+}
+
+#kpuxanchor {
+	top: 119px;
+	left: 523px;
+}
+
+#kicxanchor {
+	top: 156px;
+	left: 235px;
+}
+
+#kesxanchor {
+	top: 234px;
+	left: 168px;
+}
+
+#kyuxanchor {
+	top: 367px;
+	left: 175px;
+}
+
+#knkxanchor {
+	top: 349px;
+	left: 96px;
+}
+
+#ksoxanchor {
+	top: 314px;
+	left: 75px;
+}
+
+#kvtxanchor {
+	top: 289px;
+	left: 24px;
+}
+
+#keyxanchor {
+	top: 263px;
+	left: 76px;
+}
+
+#khnxanchor {
+	top: 209px;
+	left: 9px;
+}
+
+#kemxanchor {
+	top: 392px;
+	left: 309px;
+}
+
+#kiwaanchor {
+	top: 337px;
+	left: 275px;
+}
+
+#kfsxanchor {
+	top: 283px;
+	left: 288px;
+}
+
+#kepzanchor {
+	top: 393px;
+	left: 440px;
+}
+
+#khdxanchor {
+	top: 348px;
+	left: 457px;
+}
+
+#kabxanchor {
+	top: 260px;
+	left: 434px;
+}
+
+#kfdxanchor {
+	top: 282px;
+	left: 543px;
+}

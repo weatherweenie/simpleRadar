@@ -43,7 +43,11 @@ else if (region == "northeast") {
 	appendStations(region, regionName, ['kpbz', 'kakq', 'klwx', 'kccx', 'kbuf', 'ktyx', 'kbgm', 'kdox', 'kdix', 'kenx', 'kcxx', 'kokx', 'kbox', 'kgyx', 'kcbw', 'kfcx']);
 }
 else if (region == "pacsouthwest") { regionName = "Pacific Southwest";}
-else if (region == "southrockies") { regionName = "Southern Rockies";}
+else if (region == "southrockies") { 
+	regionName = "Southern Rockies";
+	stylesheet.href = "./stylesheets/regions/southrockies.css";
+	appendStations(region, regionName, ['kpux', 'kgjx', 'kfdx', 'khdx', 'kabx', 'kepz', 'kemx', 'kiwa', 'kfsx', 'kicx', 'kesx', 'kyux', 'knkx', 'ksox', 'keyx', 'khnx', 'kvtx']);
+}
 else if (region == "southplains") { 
 	regionName = "Southern Plains";
 	stylesheet.href = "./stylesheets/regions/southplains.css";
