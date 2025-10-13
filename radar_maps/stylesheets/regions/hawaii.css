@@ -1,0 +1,52 @@
+img #mainImg {
+	position: relative;
+}
+
+#topText {
+	white-space: nowrap;
+}
+
+/*make each station button a circle*/
+.stationanchor {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: grey;
+	border:	2px solid yellow;
+	position: absolute;
+	opacity: 0.8;
+}
+
+.stationanchor:hover {
+	opacity: 1;
+	background-color: yellow;
+	border: 2px solid grey;
+}
+
+/*for positioning each station paste this in the console to get mouse coordinates:
+
+document.onmousemove = function(e) {
+    console.log(`Mouse X (Page): ${e.pageX}, Mouse Y (Page): ${e.pageY}`);
+    console.log(`Mouse X (Client): ${e.clientX}, Mouse Y (Client): ${e.clientY}`);
+};
+*/
+
+#phwaanchor {
+	top: 399px;
+	left: 386px;
+}
+
+#phkmanchor {
+	top: 347px;
+	left: 375px;
+}
+
+#phmoanchor {
+	top: 298px;
+	left: 311px;
+}
+
+#phkianchor {
+	top: 260px;
+	left: 201px;
+}

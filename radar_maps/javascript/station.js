@@ -11,15 +11,19 @@ region1anchor = document.getElementById("region1anchor");
 region2anchor = document.getElementById("region2anchor");
 region1span = document.getElementById("region1span");
 region2span = document.getElementById("region2span");
+stationspan = document.getElementById("stationspan");
 
 regionCapitalized = region[0].toUpperCase() + region.slice(1);
 stationCapitalized = station.toUpperCase();
 console.log(stationCapitalized);
 
 if (['guam', 'hawaii', 'alaska', 'tjua'].includes(region)) { //if the region is any of these
-	region1anchor.href = "./region.html?region=" + region;
-	region1anchor.innerText = regionName;
-	region1span.innerText = " > ";
+	region1anchor.href = "./conus.html";
+	region1anchor.innerText = "CONUS";
+	region1span.innerText = " | ";
+	region2anchor.href = "./region.html?region=" + region;
+	region2anchor.innerText = regionName;
+	region2span.innerText = " > ";
 	stationspan.innerText = stationCapitalized;
 	
 }

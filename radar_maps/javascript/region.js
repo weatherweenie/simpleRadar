@@ -44,7 +44,11 @@ else if (region == "northeast") {
 }
 else if (region == "pacsouthwest") { regionName = "Pacific Southwest";}
 else if (region == "southrockies") { regionName = "Southern Rockies";}
-else if (region == "southplains") { regionName = "Southern Plains";}
+else if (region == "southplains") { 
+	regionName = "Southern Plains";
+	stylesheet.href = "./stylesheets/regions/southplains.css";
+	appendStations(region, regionName, ['kbro', 'kcrp', 'kdfx', 'kewx', 'khgx', 'klch', 'kgrk', 'kpoe', 'ksjt', 'kmaf', 'kepz', 'kdyx', 'kfws', 'kshv', 'khdx', 'klbb', 'kfdr', 'kfdx', 'klzk', 'ksrx', 'ktlx', 'kama', 'kabx', 'kinx', 'kvnx', 'ksgf', 'kict', 'kddc']);
+}
 else if (region == "southmissvly") { 
 	regionName = "Southern Mississippi Valley";
 	stylesheet.href = "./stylesheets/regions/southmissvly.css";
@@ -56,10 +60,26 @@ else if (region == "southeast") {
 	appendStations(region, regionName, ['kmhx', 'krax', 'kltx', 'kclx', 'kcae', 'kgsp', 'kmrx', 'kohx', 'khtx', 'kffc', 'kjgx', 'kvax', 'kjax', 'kmlb', 'kamx', 'ktbw', 'ktlh', 'keox', 'kmxx', 'kbmx', 'kevx', 'kmob', 'kgwx', 'kdgx', 'khdc', 'knqa', 'kbyx']);
 }
 
-else if (region == "alaska") { regionName = "Alaska";}
-else if (region == "guam") { regionName = "Guam";}
-else if (region == "hawaii") { regionName = "Hawaii";}
-else if (region == "tjua") { regionName = "Puerto Rico";}
+else if (region == "alaska") { 
+	regionName = "Alaska";
+	stylesheet.href = "./stylesheets/regions/alaska.css";
+	appendStations(region, regionName, ['pacg', 'paih', 'papd', 'pahg', 'pakc', 'pabc', 'paec']);
+}
+else if (region == "guam") { 
+	regionName = "Guam";
+	stylesheet.href = "./stylesheets/regions/guam.css";
+	appendStations(region, regionName, ['pgua']);
+}
+else if (region == "hawaii") { 
+	regionName = "Hawaii";
+	stylesheet.href = "./stylesheets/regions/hawaii.css";
+	appendStations(region, regionName, ['phwa', 'phkm', 'phmo', 'phki']);
+}
+else if (region == "tjua") { 
+	regionName = "Puerto Rico";
+	stylesheet.href = "./stylesheets/regions/tjua.css";
+	appendStations(region, regionName, ['tjua']);
+}
 console.log(regionName);
 
 if (['guam', 'hawaii', 'alaska', 'tjua'].includes(region)) { //if the region is any of these

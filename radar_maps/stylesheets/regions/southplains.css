@@ -1,0 +1,172 @@
+img #mainImg {
+	position: relative;
+}
+
+#topText {
+	white-space: nowrap;
+}
+
+/*make each station button a circle*/
+.stationanchor {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: grey;
+	border:	2px solid yellow;
+	position: absolute;
+	opacity: 0.8;
+}
+
+.stationanchor:hover {
+	opacity: 1;
+	background-color: yellow;
+	border: 2px solid grey;
+}
+
+/*for positioning each station paste this in the console to get mouse coordinates:
+
+document.onmousemove = function(e) {
+    console.log(`Mouse X (Page): ${e.pageX}, Mouse Y (Page): ${e.pageY}`);
+    console.log(`Mouse X (Client): ${e.clientX}, Mouse Y (Client): ${e.clientY}`);
+};
+*/
+
+#kbroanchor {
+	top: 553px;
+	left: 393px;
+}
+
+#kcrpanchor {
+	top: 485px;
+	left: 389px;
+}
+
+#khgxanchor {
+	top: 424px;
+	left: 483px;
+}
+
+#klchanchor {
+	top: 400px;
+	left: 551px;
+}
+
+#kpoeanchor {
+	top: 360px;
+	left: 561px;
+}
+
+#kshvanchor {
+	top: 313px;
+	left: 526px;
+}
+
+#klzkanchor {
+	top: 221px;
+	left: 587px;
+}
+
+#ksrxanchor {
+	top: 201px;
+	left: 508px;
+}
+
+#ksgfanchor {
+	top: 123px;
+	left: 543px;
+}
+
+#kictanchor {
+	top: 105px;
+	left: 392px;
+}
+
+#kddcanchor {
+	top: 102px;
+	left: 298px;
+}
+
+#kvnxanchor {
+	top: 144px;
+	left: 366px;
+}
+
+#kinxanchor {
+	top: 166px;
+	left: 464px;
+}
+
+#ktlxanchor {
+	top: 199px;
+	left: 400px;
+}
+
+#kfdranchor {
+	top: 236px;
+	left: 336px;
+}
+
+#kfwsanchor {
+	top: 307px;
+	left: 399px;
+}
+
+#kdyxanchor {
+	top: 309px;
+	left: 324px;
+}
+
+#ksjtanchor {
+	top: 353px;
+	left: 278px;
+}
+
+#kmafanchor {
+	top: 330px;
+	left: 215px;
+}
+
+#klbbanchor {
+	top: 266px;
+	left: 229px;
+}
+
+#kamaanchor {
+	top: 203px;
+	left: 233px;
+}
+
+#kfdxanchor {
+	top: 227px;
+	left: 160px;
+}
+
+#kabxanchor {
+	top: 207px;
+	left: 42px;
+}
+
+#khdxanchor {
+	top: 289px;
+	left: 65px;
+}
+
+#kepzanchor {
+	top: 333px;
+	left: 46px;
+}
+
+#kdfxanchor {
+	top: 432px;
+	left: 287px;
+}
+
+#kewxanchor {
+	top: 414px;
+	left: 371px;
+}
+
+#kgrkanchor {
+	top: 377px;
+	left: 396px;
+}
