@@ -42,7 +42,11 @@ else if (region == "northeast") {
 	stylesheet.href = "./stylesheets/regions/northeast.css";
 	appendStations(region, regionName, ['kpbz', 'kakq', 'klwx', 'kccx', 'kbuf', 'ktyx', 'kbgm', 'kdox', 'kdix', 'kenx', 'kcxx', 'kokx', 'kbox', 'kgyx', 'kcbw', 'kfcx']);
 }
-else if (region == "pacsouthwest") { regionName = "Pacific Southwest";}
+else if (region == "pacsouthwest") { 
+	regionName = "Pacific Southwest";
+	stylesheet.href = "./stylesheets/regions/pacsouthwest.css";
+	appendStations(region, regionName, ['kiwa', 'kfsx', 'kyux', 'kicx', 'kmtx', 'klrx', 'kesx', 'krgx', 'kmax', 'kbhx', 'kbbx', 'kdax', 'kmux', 'khnx', 'kvbx', 'kvtx', 'keyx', 'ksox', 'knkx']);
+}
 else if (region == "southrockies") { 
 	regionName = "Southern Rockies";
 	stylesheet.href = "./stylesheets/regions/southrockies.css";
