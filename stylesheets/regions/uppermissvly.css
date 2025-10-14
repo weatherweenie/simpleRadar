@@ -1,0 +1,152 @@
+img #mainImg {
+	position: relative;
+}
+
+#topText {
+	white-space: nowrap;
+}
+
+/*make each station button a circle*/
+.stationanchor {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: grey;
+	border:	2px solid yellow;
+	position: absolute;
+	opacity: 0.8;
+}
+
+.stationanchor:hover {
+	opacity: 1;
+	background-color: yellow;
+	border: 2px solid grey;
+}
+
+/*for positioning each station paste this in the console to get mouse coordinates:
+
+document.onmousemove = function(e) {
+    console.log(`Mouse X (Page): ${e.pageX}, Mouse Y (Page): ${e.pageY}`);
+    console.log(`Mouse X (Client): ${e.clientX}, Mouse Y (Client): ${e.clientY}`);
+};
+*/
+
+#kmbxanchor {
+	top: 119px;
+	left: 87px;	
+}
+
+#kbisanchor {
+	top: 186px;
+	left: 93px;	
+}
+
+#kmvxanchor {
+	top: 153px;
+	left: 239px;
+}
+
+#kabranchor {
+	top: 238px;
+	left: 191px;
+}
+
+#kudxanchor {
+	top: 289px;
+	left: 5px;
+}
+
+#kfsdanchor {
+	top: 314px;
+	left: 264px;
+}
+
+#koaxanchor {
+	top: 398px;
+	left: 282px;
+}
+
+#klnxanchor {
+	top: 375px;
+	left: 99px;
+}
+
+#kuexanchor {
+	top: 436px;
+	left: 192px;
+}
+
+#kgldanchor {
+	top: 469px;
+	left: 52px;
+}
+
+#kddcanchor {
+	top: 527px;
+	left: 124px;
+}
+
+#kictanchor {
+	top: 530px;
+	left: 233px;
+}
+
+#ktwxanchor {
+	top: 483px;
+	left: 286px;
+}
+
+#kvnxanchor {
+	top: 562px;
+	left: 205px;
+}
+
+#kinxanchor {
+	top: 584px;
+	left: 315px;
+}
+
+#ksgfanchor {
+	top: 546px;
+	left: 406px;
+}
+
+#keaxanchor {
+	top: 491px;
+	left: 371px;
+}
+
+#klsxanchor {
+	top: 495px;
+	left: 523px;
+}
+
+#kilxanchor {
+	top: 443px;
+	left: 583px;
+}
+
+#kdvnanchor {
+	top: 386px;
+	left: 529px;
+}
+
+#karxanchor {
+	top: 305px;
+	left: 504px;
+}
+
+#kdlhanchor {
+	top: 184px;
+	left: 459px;
+}
+
+#kmpxanchor {
+	top: 264px;
+	left: 399px;
+}
+
+#kdmxanchor {
+	top: 383px;
+	left: 394px;
+}

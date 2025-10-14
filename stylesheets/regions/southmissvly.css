@@ -1,0 +1,222 @@
+img #mainImg {
+	position: relative;
+}
+
+#topText {
+	white-space: nowrap;
+}
+
+/*make each station button a circle*/
+.stationanchor {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: grey;
+	border:	2px solid yellow;
+	position: absolute;
+	opacity: 0.8;
+}
+
+.stationanchor:hover {
+	opacity: 1;
+	background-color: yellow;
+	border: 2px solid grey;
+}
+
+/*for positioning each station paste this in the console to get mouse coordinates:
+
+document.onmousemove = function(e) {
+    console.log(`Mouse X (Page): ${e.pageX}, Mouse Y (Page): ${e.pageY}`);
+    console.log(`Mouse X (Client): ${e.clientX}, Mouse Y (Client): ${e.clientY}`);
+};
+*/
+
+#ktbwanchor {
+	top: 518px;
+	left: 582px;
+}
+
+#kvaxanchor {
+	top: 392px;
+	left: 559px;
+}
+
+#ktlhanchor {
+	top: 412px;
+	left: 509px;
+}
+
+#kevxanchor {
+	top: 406px;
+	left: 448px;
+}
+
+#kmobanchor {
+	top: 400px;
+	left: 362px;
+}
+
+#khdcanchor {
+	top: 407px;
+	left: 282px;
+}
+
+#khdcanchor {
+	top: 407px;
+	left: 282px;
+}
+
+#klchanchor {
+	top: 423px;
+	left: 176px;
+}
+
+#khgxanchor {
+	top: 448px;
+	left: 107px;
+}
+
+#kcrpanchor {
+	top: 514px;
+	left: 14px;
+}
+
+#kbroanchor {
+	top: 586px;
+	left: 18px;
+}
+
+#kgrkanchor {
+	top: 398px;
+	left: 19px;
+}
+
+#kpoeanchor {
+	top: 378px;
+	left: 187px;
+}
+
+#keoxanchor {
+	top: 369px;
+	left: 466px;
+}
+
+#kjgxanchor {
+	top: 319px;
+	left: 545px;
+}
+
+#kmxxanchor {
+	top: 327px;
+	left: 454px;
+}
+
+#kdgxanchor {
+	top: 336px;
+	left: 297px;
+}
+
+#kshvanchor {
+	top: 330px;
+	left: 153px;
+}
+
+#kfwsanchor {
+	top: 324px;
+	left: 24px;
+}
+
+#kffcanchor {
+	top: 290px;
+	left: 501px;
+}
+
+#kbmxanchor {
+	top: 299px;
+	left: 419px;
+}
+
+#kgspanchor {
+	top: 227px;
+	left: 589px;
+}
+
+#khtxanchor {
+	top: 226px;
+	left: 444px;
+}
+
+#kgwxanchor {
+	top: 268px;
+	left: 358px;
+}
+
+#knqaanchor {
+	top: 208px;
+	left: 301px;
+}
+
+#klzkanchor {
+	top: 229px;
+	left: 212px;
+}
+
+#ksrxanchor {
+	top: 210px;
+	left: 133px;
+}
+
+#ktlxanchor {
+	top: 209px;
+	left: 24px;
+}
+
+#kmrxanchor {
+	top: 172px;
+	left: 544px;
+}
+
+#kohxanchor {
+	top: 169px;
+	left: 424px;
+}
+
+#kinxanchor {
+	top: 173px;
+	left: 88px;
+}
+
+#kictanchor {
+	top: 108px;
+	left: 17px;
+}
+
+#ksgfanchor {
+	top: 127px;
+	left: 169px;
+}
+
+#kpahanchor {
+	top: 135px;
+	left: 343px;
+}
+
+#khpxanchor {
+	top: 148px;
+	left: 399px;
+}
+
+#kvwxanchor {
+	top: 83px;
+	left: 381px;
+}
+
+#klvxanchor {
+	top: 96px;
+	left: 449px;
+}
+
+#kjklanchor {
+	top: 113px;
+	left: 548px;
+}
