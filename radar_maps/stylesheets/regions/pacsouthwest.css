@@ -90,3 +90,33 @@ document.onmousemove = function(e) {
 	top: 89px;
 	left: 207px;
 }
+
+#krgxanchor {
+	top: 182px;
+	left: 310px;
+}
+
+#klrxanchor {
+	top: 143px;
+	left: 403px;
+}
+
+#kesxanchor {
+	top: 343px;
+	left: 465px;
+}
+
+#kicxanchor {
+	top: 268px;
+	left: 535px;
+}
+
+#kmtxanchor {
+	top: 122px;
+	left: 548px;
+}
+
+#kiwaanchor {
+	top: 432px;
+	left: 573px;
+}

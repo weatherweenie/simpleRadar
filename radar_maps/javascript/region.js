@@ -45,7 +45,7 @@ else if (region == "northeast") {
 else if (region == "pacsouthwest") { 
 	regionName = "Pacific Southwest";
 	stylesheet.href = "./stylesheets/regions/pacsouthwest.css";
-	appendStations(region, regionName, ['kiwa', 'kfsx', 'kyux', 'kicx', 'kmtx', 'klrx', 'kesx', 'krgx', 'kmax', 'kbhx', 'kbbx', 'kdax', 'kmux', 'khnx', 'kvbx', 'kvtx', 'keyx', 'ksox', 'knkx']);
+	appendStations(region, regionName, ['kiwa', 'kyux', 'kicx', 'kmtx', 'klrx', 'kesx', 'krgx', 'kmax', 'kbhx', 'kbbx', 'kdax', 'kmux', 'khnx', 'kvbx', 'kvtx', 'keyx', 'ksox', 'knkx']);
 }
 else if (region == "southrockies") { 
 	regionName = "Southern Rockies";
