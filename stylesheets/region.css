@@ -1,0 +1,16 @@
+body {
+	
+	display: block;
+	margin: 8px;
+	margin-top: 26px;
+}
+
+#topText {
+	display: inline-block;
+	height: 19px;
+}
+
+#mainImg {
+	display: block;
+	margin-top: 17px;
+}
