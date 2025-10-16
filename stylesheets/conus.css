@@ -88,3 +88,122 @@ a:hover {
 	width: 155px;
 	height: 156.3px;
 }
+
+
+/*for touch devices, the hover windows won't work*/
+
+@media (pointer: coarse) { 
+
+a:not(.text) {
+	border: 2px solid black;
+	border-radius: 50%;
+	background-color: grey;
+	opacity: 0.8;
+}
+
+a:not(.text):hover {
+	opacity: 0.8;
+	background-color: red;
+	border: 2px solid black;
+}
+
+#pacnorthwest {
+	position: absolute;
+	width: 20px;
+	height: 20px;	
+	top: 115px;
+	left: 78px;
+
+}
+
+#northrockies { 
+	position: absolute;
+	width: 20px;
+	height: 20px;	
+	top: 115px;
+	left: 176px;
+}
+
+#uppermissvly { 
+	position: absolute;
+	width: 20px;
+	height: 20px;	
+	top: 115px;
+	left: 302px;
+}
+
+#centgrlakes { 
+	position: absolute;
+	width: 20px;
+	height: 20px;	
+	top: 115px;
+	left: 416px;
+}
+
+#northeast { 
+	position: absolute;
+	width: 20px;
+	height: 20px;	
+	top: 115px;
+	left: 521px;
+}
+
+#pacsouthwest { 
+	position: absolute;
+	width: 20px;
+	height: 20px;	
+	top: 203px;
+	left: 71px;
+}
+
+#southrockies { 
+	position: absolute;
+	width: 20px;
+	height: 20px;	
+	top: 233px;
+	left: 153px;
+}
+
+#southplains { 
+	position: absolute;
+	width: 20px;
+	height: 20px;	
+	top: 253px;
+	left: 263px;
+}
+
+#southmissvly { 
+	position: absolute;
+	width: 20px;
+	height: 20px;	
+	top: 250px;
+	left: 362px;
+}
+
+#southeast { 
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 291px;
+	left: 432px;	
+}
+
+
+/*testing animations and formatting*/
+
+/*
+a:hover {
+	border: none;
+}
+
+a:not(.text) {
+	box-shadow: inset 10% -90% 0 5px red;
+	outline-offset: -100px;
+	transition: outline-offset 0.5s ease-in-out;
+}
+
+a:hover {
+	outline: 4px solid blue;
+	outline-offset: 0px;
+}
+*/
